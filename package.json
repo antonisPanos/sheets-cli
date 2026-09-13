@@ -1,0 +1,16 @@
+{
+  "name": "sheets-cli",
+  "version": "1.0.0",
+  "description": "Local CLI for reading/writing Google Sheets via OAuth (personal Google account)",
+  "type": "module",
+  "bin": {
+    "sheets-cli": "./src/cli.js"
+  },
+  "scripts": {
+    "auth": "node src/auth.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^176.0.0"
+  }
+}
