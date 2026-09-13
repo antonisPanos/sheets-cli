@@ -45,6 +45,19 @@ node src/cli.js help
 Commands: `create`, `info`, `get`, `set`, `set-formula`, `add-tab`,
 `del-tab`, `insert-rows`, `insert-cols`.
 
+## Claude Skill
+
+This CLI is meant to be driven by an agent through a Claude Code skill —
+see [`docs/SKILL.md`](docs/SKILL.md). The skill tells the agent when to
+reach for this tool (creating/reading/editing a Sheet, tab, range, or
+formula) and documents every CLI command it's allowed to call
+(`create`, `info`, `get`, `set`, `set-formula`, `add-tab`, `del-tab`,
+`insert-rows`, `insert-cols`), plus what to do on an auth/token error.
+
+To use it yourself: drop `docs/SKILL.md` into your skills directory
+(e.g. `~/.claude/skills/google-sheets/SKILL.md`) and update the path in
+it to wherever you clone this repo.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
