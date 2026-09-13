@@ -55,8 +55,8 @@ formula) and documents every CLI command it's allowed to call
 `insert-rows`, `insert-cols`), plus what to do on an auth/token error.
 
 To use it yourself: drop `docs/SKILL.md` into your skills directory
-(e.g. `~/.claude/skills/google-sheets/SKILL.md`) and update the path in
-it to wherever you clone this repo.
+(e.g. `~/.claude/skills/google-sheets/SKILL.md`) and set
+`SHEETS_CLI_DIR` to wherever you clone this repo.
 
 ## License
 
