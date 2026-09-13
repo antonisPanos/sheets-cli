@@ -9,7 +9,7 @@
   "scripts": {
     "auth": "node src/auth.js"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "googleapis": "^176.0.0"
   }
